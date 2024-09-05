@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+
+  yaup:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      FLAG_1: F4J{flag_1}
+      FLAG_2: F4J{flag_2}
+      FLAG_3: F4J{flag_3}
